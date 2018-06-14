@@ -7,5 +7,5 @@ app.get('/', (req, res) => {//listen for get requests
 });
 
 app.listen(3000, () => {//tells index.js to listen on port 3000
-    console.log('Running on port 3000');
+    console.log('Running on port 3000');//prints this to the console on the server side, in other words to the terminal
 });
